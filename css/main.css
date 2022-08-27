@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Staatliches&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2874f0;
+    padding: 10px 10%;
+}
+
+header .left-nav {
+    display: flex;
+}
+
+img.logo {
+    width: 100px;
+    margin-right: 24px;
+}
+
+input#search {
+    width: 480px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 10px;
+    font-size: 16px;
+}
+
+input#search:focus {
+    outline: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 3vh;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease 0;
+}
